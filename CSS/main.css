@@ -17,12 +17,26 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 footer{
+   
     padding: 10px 0;
     background-color: #101010;
     color: #9d9d9d;
     bottom: 0;
     width: 100%;
 }
+@media screen and (min-height: 729px)
+{
+    footer{
+        position: fixed;
+    }
+}
+@media screen and (max-width:1199px)
+{
+    footer{
+        position: fixed;
+    }
+}
+
 .loginform{
     width: 35%;
     margin-top: 10%;
@@ -51,4 +65,53 @@ footer{
         width: 80%;
         margin-top: 20%;
     }
+}
+
+.signup_form{
+    margin-top: 7%;
+    width: 35%;
+
+
+}
+
+.signup_form h1{
+    text-align: left;
+}
+
+@media screen and (max-width: 768px)
+{
+    .signup_form{
+        width: 40%;
+        
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .signup_form{
+        width: 60%;
+        margin-top: 15%;
+        
+    }
+}
+@media screen and (max-width: 450px)
+{
+    .signup_form{
+        width: 80%;
+        margin-top: 20%;
+    }
+}
+@media screen and (max-height:530px)
+{
+    .signup_footer{
+        position: relative;
+    }
+    
+    @media screen and (min-width:620px)
+{
+    .signup_footer{
+        position: fixed;
+    }
+    
+}
+
 }
