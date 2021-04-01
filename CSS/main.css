@@ -149,16 +149,32 @@ footer{
         margin-top: 20%;
     }
 }
-@media screen and (max-height:530px)
+
+.change_pass{
+    margin-top: 10%;
+    width: 33.3%;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px)
 {
-    .cart {
+    .change_pass{
+        width: 40%;
         
     }
-}  
-    @media screen and (min-width:620px)
+}
+@media screen and (max-width: 600px)
 {
-    .cart{
+    .change_pass{
+        width: 60%;
+        margin-top: 15%;
         
     }
-    
+}
+@media screen and (max-width: 450px)
+{
+    .change_pass{
+        width: 80%;
+        margin-top: 20%;
+    }
 }
