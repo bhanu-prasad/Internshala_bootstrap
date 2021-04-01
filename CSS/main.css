@@ -105,7 +105,7 @@ footer{
     .signup_footer{
         position: relative;
     }
-    
+}  
     @media screen and (min-width:620px)
 {
     .signup_footer{
@@ -114,4 +114,4 @@ footer{
     
 }
 
-}
+
