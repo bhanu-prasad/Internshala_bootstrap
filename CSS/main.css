@@ -121,3 +121,44 @@ footer{
 .product_page{
     position: relative;
 }
+
+.cart table{
+    margin-top: 10%;
+    width: 50%;
+}
+
+@media screen and (max-width: 768px)
+{
+    .cart table{
+        width: 55%;
+        
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .cart table{
+        width: 70%;
+        margin-top: 15%;
+        
+    }
+}
+@media screen and (max-width: 450px)
+{
+    .cart table{
+        width: 80%;
+        margin-top: 20%;
+    }
+}
+@media screen and (max-height:530px)
+{
+    .cart {
+        
+    }
+}  
+    @media screen and (min-width:620px)
+{
+    .cart{
+        
+    }
+    
+}
